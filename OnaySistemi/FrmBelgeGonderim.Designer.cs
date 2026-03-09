@@ -1,0 +1,246 @@
+﻿namespace OnaySistemi
+{
+    partial class FrmBelgeGonderim
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.pnlHeader = new System.Windows.Forms.Panel();
+            this.lblBaslik = new System.Windows.Forms.Label();
+            this.pnlContent = new System.Windows.Forms.Panel();
+            this.pnlKart = new System.Windows.Forms.Panel();
+            this.lblOnayci2 = new System.Windows.Forms.Label();
+            this.cmbOnayci2 = new System.Windows.Forms.ComboBox();
+            this.lblOnayci1 = new System.Windows.Forms.Label();
+            this.cmbOnayci1 = new System.Windows.Forms.ComboBox();
+            this.btnGonder = new System.Windows.Forms.Button();
+            this.btnDosyaSec = new System.Windows.Forms.Button();
+            this.txtDosyaYolu = new System.Windows.Forms.TextBox();
+            this.lblDosya = new System.Windows.Forms.Label();
+            this.txtAciklama = new System.Windows.Forms.TextBox();
+            this.lblAciklama = new System.Windows.Forms.Label();
+            this.txtKonu = new System.Windows.Forms.TextBox();
+            this.lblKonu = new System.Windows.Forms.Label();
+            this.lstDirektorluk = new System.Windows.Forms.ListBox();
+            this.lblDirektorluk = new System.Windows.Forms.Label();
+            this.lstDokumanTuru = new System.Windows.Forms.ListBox();
+            this.lblDokumanTuru = new System.Windows.Forms.Label();
+            this.pnlHeader.SuspendLayout();
+            this.pnlContent.SuspendLayout();
+            this.pnlKart.SuspendLayout();
+            this.SuspendLayout();
+            this.pnlHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.pnlHeader.Controls.Add(this.lblBaslik);
+            this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.Size = new System.Drawing.Size(900, 60);
+            this.pnlHeader.TabIndex = 0;
+            this.lblBaslik.AutoSize = true;
+            this.lblBaslik.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold);
+            this.lblBaslik.ForeColor = System.Drawing.Color.White;
+            this.lblBaslik.Location = new System.Drawing.Point(20, 16);
+            this.lblBaslik.Name = "lblBaslik";
+            this.lblBaslik.Size = new System.Drawing.Size(189, 32);
+            this.lblBaslik.TabIndex = 0;
+            this.lblBaslik.Text = "Belge Gönderimi";
+            this.pnlContent.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pnlContent.Controls.Add(this.pnlKart);
+            this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlContent.Location = new System.Drawing.Point(0, 60);
+            this.pnlContent.Name = "pnlContent";
+            this.pnlContent.Padding = new System.Windows.Forms.Padding(20);
+            this.pnlContent.Size = new System.Drawing.Size(900, 490);
+            this.pnlContent.TabIndex = 1;
+            this.pnlKart.BackColor = System.Drawing.Color.White;
+            this.pnlKart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlKart.Controls.Add(this.lblOnayci2);
+            this.pnlKart.Controls.Add(this.cmbOnayci2);
+            this.pnlKart.Controls.Add(this.lblOnayci1);
+            this.pnlKart.Controls.Add(this.cmbOnayci1);
+            this.pnlKart.Controls.Add(this.btnGonder);
+            this.pnlKart.Controls.Add(this.btnDosyaSec);
+            this.pnlKart.Controls.Add(this.txtDosyaYolu);
+            this.pnlKart.Controls.Add(this.lblDosya);
+            this.pnlKart.Controls.Add(this.txtAciklama);
+            this.pnlKart.Controls.Add(this.lblAciklama);
+            this.pnlKart.Controls.Add(this.txtKonu);
+            this.pnlKart.Controls.Add(this.lblKonu);
+            this.pnlKart.Controls.Add(this.lstDirektorluk);
+            this.pnlKart.Controls.Add(this.lblDirektorluk);
+            this.pnlKart.Controls.Add(this.lstDokumanTuru);
+            this.pnlKart.Controls.Add(this.lblDokumanTuru);
+            this.pnlKart.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlKart.Location = new System.Drawing.Point(20, 20);
+            this.pnlKart.Name = "pnlKart";
+            this.pnlKart.Padding = new System.Windows.Forms.Padding(15);
+            this.pnlKart.Size = new System.Drawing.Size(860, 450);
+            this.pnlKart.TabIndex = 0;
+            this.lblOnayci2.AutoSize = true;
+            this.lblOnayci2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblOnayci2.Location = new System.Drawing.Point(450, 330);
+            this.lblOnayci2.Name = "lblOnayci2";
+            this.lblOnayci2.Size = new System.Drawing.Size(126, 20);
+            this.lblOnayci2.TabIndex = 15;
+            this.lblOnayci2.Text = "2. Onaycı (opsiyonel)";
+            this.cmbOnayci2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbOnayci2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.cmbOnayci2.FormattingEnabled = true;
+            this.cmbOnayci2.Location = new System.Drawing.Point(453, 353);
+            this.cmbOnayci2.Name = "cmbOnayci2";
+            this.cmbOnayci2.Size = new System.Drawing.Size(260, 28);
+            this.cmbOnayci2.TabIndex = 8;
+            this.lblOnayci1.AutoSize = true;
+            this.lblOnayci1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblOnayci1.Location = new System.Drawing.Point(170, 330);
+            this.lblOnayci1.Name = "lblOnayci1";
+            this.lblOnayci1.Size = new System.Drawing.Size(68, 20);
+            this.lblOnayci1.TabIndex = 13;
+            this.lblOnayci1.Text = "1. Onaycı";
+            this.cmbOnayci1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbOnayci1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.cmbOnayci1.FormattingEnabled = true;
+            this.cmbOnayci1.Location = new System.Drawing.Point(173, 353);
+            this.cmbOnayci1.Name = "cmbOnayci1";
+            this.cmbOnayci1.Size = new System.Drawing.Size(260, 28);
+            this.cmbOnayci1.TabIndex = 7;
+            this.btnGonder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGonder.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnGonder.Location = new System.Drawing.Point(673, 400);
+            this.btnGonder.Name = "btnGonder";
+            this.btnGonder.Size = new System.Drawing.Size(150, 30);
+            this.btnGonder.TabIndex = 9;
+            this.btnGonder.Text = "Gönder";
+            this.btnGonder.UseVisualStyleBackColor = true;
+            this.btnGonder.Click += new System.EventHandler(this.btnGonder_Click);
+            this.btnDosyaSec.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnDosyaSec.Location = new System.Drawing.Point(728, 292);
+            this.btnDosyaSec.Name = "btnDosyaSec";
+            this.btnDosyaSec.Size = new System.Drawing.Size(95, 28);
+            this.btnDosyaSec.TabIndex = 6;
+            this.btnDosyaSec.Text = "Seç...";
+            this.btnDosyaSec.UseVisualStyleBackColor = true;
+            this.btnDosyaSec.Click += new System.EventHandler(this.btnDosyaSec_Click);
+            this.txtDosyaYolu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtDosyaYolu.Location = new System.Drawing.Point(173, 292);
+            this.txtDosyaYolu.Name = "txtDosyaYolu";
+            this.txtDosyaYolu.ReadOnly = true;
+            this.txtDosyaYolu.Size = new System.Drawing.Size(549, 27);
+            this.txtDosyaYolu.TabIndex = 5;
+            this.lblDosya.AutoSize = true;
+            this.lblDosya.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblDosya.Location = new System.Drawing.Point(170, 269);
+            this.lblDosya.Name = "lblDosya";
+            this.lblDosya.Size = new System.Drawing.Size(49, 20);
+            this.lblDosya.TabIndex = 9;
+            this.lblDosya.Text = "Dosya";
+            this.txtAciklama.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtAciklama.Location = new System.Drawing.Point(453, 94);
+            this.txtAciklama.Multiline = true;
+            this.txtAciklama.Name = "txtAciklama";
+            this.txtAciklama.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtAciklama.Size = new System.Drawing.Size(370, 160);
+            this.txtAciklama.TabIndex = 4;
+            this.lblAciklama.AutoSize = true;
+            this.lblAciklama.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblAciklama.Location = new System.Drawing.Point(450, 71);
+            this.lblAciklama.Name = "lblAciklama";
+            this.lblAciklama.Size = new System.Drawing.Size(66, 20);
+            this.lblAciklama.TabIndex = 7;
+            this.lblAciklama.Text = "Açıklama";
+            this.txtKonu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtKonu.Location = new System.Drawing.Point(453, 34);
+            this.txtKonu.Name = "txtKonu";
+            this.txtKonu.Size = new System.Drawing.Size(370, 27);
+            this.txtKonu.TabIndex = 3;
+            this.lblKonu.AutoSize = true;
+            this.lblKonu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblKonu.Location = new System.Drawing.Point(450, 11);
+            this.lblKonu.Name = "lblKonu";
+            this.lblKonu.Size = new System.Drawing.Size(41, 20);
+            this.lblKonu.TabIndex = 5;
+            this.lblKonu.Text = "Konu";
+            this.lstDirektorluk.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lstDirektorluk.FormattingEnabled = true;
+            this.lstDirektorluk.ItemHeight = 20;
+            this.lstDirektorluk.Location = new System.Drawing.Point(173, 94);
+            this.lstDirektorluk.Name = "lstDirektorluk";
+            this.lstDirektorluk.Size = new System.Drawing.Size(250, 164);
+            this.lstDirektorluk.TabIndex = 2;
+            this.lblDirektorluk.AutoSize = true;
+            this.lblDirektorluk.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblDirektorluk.Location = new System.Drawing.Point(170, 71);
+            this.lblDirektorluk.Name = "lblDirektorluk";
+            this.lblDirektorluk.Size = new System.Drawing.Size(73, 20);
+            this.lblDirektorluk.TabIndex = 3;
+            this.lblDirektorluk.Text = "Direktörlük";
+            this.lstDokumanTuru.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lstDokumanTuru.FormattingEnabled = true;
+            this.lstDokumanTuru.ItemHeight = 20;
+            this.lstDokumanTuru.Location = new System.Drawing.Point(18, 34);
+            this.lstDokumanTuru.Name = "lstDokumanTuru";
+            this.lstDokumanTuru.Size = new System.Drawing.Size(140, 344);
+            this.lstDokumanTuru.TabIndex = 1;
+            this.lblDokumanTuru.AutoSize = true;
+            this.lblDokumanTuru.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblDokumanTuru.Location = new System.Drawing.Point(15, 11);
+            this.lblDokumanTuru.Name = "lblDokumanTuru";
+            this.lblDokumanTuru.Size = new System.Drawing.Size(94, 20);
+            this.lblDokumanTuru.TabIndex = 0;
+            this.lblDokumanTuru.Text = "Doküman türü";
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(900, 550);
+            this.Controls.Add(this.pnlContent);
+            this.Controls.Add(this.pnlHeader);
+            this.MinimumSize = new System.Drawing.Size(900, 550);
+            this.Name = "FrmBelgeGonderim";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Belge Gönderimi";
+            this.Load += new System.EventHandler(this.FrmBelgeGonderim_Load);
+            this.pnlHeader.ResumeLayout(false);
+            this.pnlHeader.PerformLayout();
+            this.pnlContent.ResumeLayout(false);
+            this.pnlKart.ResumeLayout(false);
+            this.pnlKart.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel pnlHeader;
+        private System.Windows.Forms.Label lblBaslik;
+        private System.Windows.Forms.Panel pnlContent;
+        private System.Windows.Forms.Panel pnlKart;
+        private System.Windows.Forms.Label lblDokumanTuru;
+        private System.Windows.Forms.ListBox lstDokumanTuru;
+        private System.Windows.Forms.ListBox lstDirektorluk;
+        private System.Windows.Forms.Label lblDirektorluk;
+        private System.Windows.Forms.TextBox txtKonu;
+        private System.Windows.Forms.Label lblKonu;
+        private System.Windows.Forms.TextBox txtAciklama;
+        private System.Windows.Forms.Label lblAciklama;
+        private System.Windows.Forms.Label lblDosya;
+        private System.Windows.Forms.TextBox txtDosyaYolu;
+        private System.Windows.Forms.Button btnDosyaSec;
+        private System.Windows.Forms.Button btnGonder;
+        private System.Windows.Forms.Label lblOnayci1;
+        private System.Windows.Forms.ComboBox cmbOnayci1;
+        private System.Windows.Forms.Label lblOnayci2;
+        private System.Windows.Forms.ComboBox cmbOnayci2;
+    }
+}
